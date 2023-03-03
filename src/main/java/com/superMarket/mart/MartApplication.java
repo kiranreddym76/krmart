@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class MartApplication {
 
 	public static void main(String[] args) {
-		System.out.println("----------before start application s------------");
+		System.out.println("----------before start applications------------");
 		SpringApplication.run(MartApplication.class, args);
 		System.out.println("----------after start application------------");
 	}
