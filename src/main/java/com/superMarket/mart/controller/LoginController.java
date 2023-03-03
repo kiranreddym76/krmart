@@ -38,7 +38,7 @@ public class LoginController {
 		loginResponse = loginService.loginCheck(loginDetails);
 		return loginResponse;
 	}
-	@PostMapping("/users")
+	@PostMapping("/user")
 	public String adduser(@RequestBody LoginDetails loginDetails) {
 		System.out.println("add");
 		String message = loginService.adduser(loginDetails);
